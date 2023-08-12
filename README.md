@@ -2,16 +2,16 @@
   
 Hệ thống quản lý phòng khám nha khoa là một phần mềm hoặc ứng dụng được thiết kế để giúp quản lý và tổ chức hoạt động hàng ngày của một phòng khám nha khoa. Hệ thống này hỗ trợ việc quản lý thông tin bệnh nhân, lịch hẹn, dịch vụ y tế, tài chính và các hoạt động khác liên quan đến hoạt động của phòng khám 
   
-**Hệ thống có các chức năng cơ bản của 1 hệ thống quản lý:  **
-  Quản lý bệnh nhân  
-  QUản lý hồ sơ  
-  Quản lý tài chính  
-  Báo cáo thống kê  
-  Đặt lịch hẹn  
+**Hệ thống có các chức năng cơ bản của 1 hệ thống quản lý:**  
+-Quản lý bệnh nhân  
+-Quản lý hồ sơ  
+-Quản lý tài chính  
+-Báo cáo thống kê  
+-Đặt lịch hẹn ...   
   
-**Hệ thống được viết bằng ngôn ngữ Java  **
+**Hệ thống được viết bằng ngôn ngữ Java**  
   
-**Các bước chạy:  **
+**Các bước chạy:**  
   * B1: Clone repo về máy tính cá nhân    
   * B2: Cài đặt một IDE Java (Netbeans,...) và một cơ sở dữ liệu (SQL,...)    
   * B3: Tạo 1 project bên trong IDE với repo vừa tải xuống     
