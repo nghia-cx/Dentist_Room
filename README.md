@@ -1,4 +1,4 @@
-# Dentist_Room (h1)  
+# Dentist_Room   
   
 Hệ thống quản lý phòng khám nha khoa là một phần mềm hoặc ứng dụng được thiết kế để giúp quản lý và tổ chức hoạt động hàng ngày của một phòng khám nha khoa. Hệ thống này hỗ trợ việc quản lý thông tin bệnh nhân, lịch hẹn, dịch vụ y tế, tài chính và các hoạt động khác liên quan đến hoạt động của phòng khám 
   
