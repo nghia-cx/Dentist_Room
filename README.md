@@ -10,10 +10,10 @@ Hệ thống có các chức năng cơ bản của 1 hệ thống quản lý:
 
 Hệ thống được viết bằng ngôn ngữ Java
 Các bước chạy:
-  B1: Clone repo về máy tính cá nhân
-  B2: Cài đặt một IDE Java (Netbeans) và một cơ sở dữ liệu (SQL,...)
-  B3: Tạo 1 project bên trong IDE với repo vừa tải xuống
-  B4: Tạo cơ sở dữ liệu với file csdl.txt
-  B5: Kết nối IDE với CSDL thông qua JDBC (trong thư mục Lib/mysql-connector-java-8.0.27.jar)
-  B6: Khi kết nối thành công, chạy hệ thống:
+  B1: Clone repo về máy tính cá nhân  
+  B2: Cài đặt một IDE Java (Netbeans) và một cơ sở dữ liệu (SQL,...)  
+  B3: Tạo 1 project bên trong IDE với repo vừa tải xuống  
+  B4: Tạo cơ sở dữ liệu với file csdl.txt  
+  B5: Kết nối IDE với CSDL thông qua JDBC (trong thư mục Lib/mysql-connector-java-8.0.27.jar)  
+  B6: Khi kết nối thành công, chạy hệ thống:  
       java src/Run/Login.java
