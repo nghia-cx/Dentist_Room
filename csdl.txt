@@ -1,0 +1,71 @@
+CREATE TABLE `bacsi` (
+  `ID` varchar(45) NOT NULL,
+  `Ten` varchar(45) DEFAULT NULL,
+  `GioiTinh` varchar(45) DEFAULT NULL,
+  `NgaySinh` date DEFAULT NULL,
+  `DiaChi` varchar(45) DEFAULT NULL,
+  `SDT` varchar(45) DEFAULT NULL,
+  `Email` varchar(45) DEFAULT NULL,
+  `MK` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `benh` (
+  `MaBenh` varchar(45) NOT NULL,
+  `Ten` varchar(45) DEFAULT NULL,
+  `ChiDinh` varchar(45) DEFAULT NULL,
+  `BaoHanh` varchar(45) DEFAULT NULL,
+  `DonGia` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`MaBenh`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `benhnhan` (
+  `SDT` varchar(45) NOT NULL,
+  `Ten` varchar(45) DEFAULT NULL,
+  `GioiTinh` varchar(45) DEFAULT NULL,
+  `NgaySinh` date DEFAULT NULL,
+  `DiaChi` varchar(45) DEFAULT NULL,
+  `Email` varchar(45) DEFAULT NULL,
+  `MK` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`SDT`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `donthuoc` (
+  `IDCTdonthuoc` varchar(45) NOT NULL,
+  `IDhoso` varchar(45) DEFAULT NULL,
+  `IDthuoc` varchar(45) DEFAULT NULL,
+  `GhiChu` varchar(45) DEFAULT NULL,
+  `Dongia` varchar(45) DEFAULT NULL,
+  `Soluong` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`IDCTdonthuoc`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `hoso` (
+  `IDhoso` varchar(45) NOT NULL,
+  `SDTbn` varchar(45) DEFAULT NULL,
+  `MaBenh` varchar(45) DEFAULT NULL,
+  `IDbs` varchar(45) DEFAULT NULL,
+  `TongTien` varchar(45) DEFAULT NULL,
+  `NgayTao` date DEFAULT NULL,
+  PRIMARY KEY (`IDhoso`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `khothuoc` (
+  `IDthuoc` varchar(45) NOT NULL,
+  `Ten` varchar(45) DEFAULT NULL,
+  `DonVi` varchar(45) DEFAULT NULL,
+  `TonKho` varchar(45) DEFAULT NULL,
+  `ChucNang` varchar(45) DEFAULT NULL,
+  `NgayNhap` date DEFAULT NULL,
+  `DonGia` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`IDthuoc`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `lichhen` (
+  `MaHen` varchar(45) NOT NULL,
+  `SDTbn` varchar(45) DEFAULT NULL,
+  `MaBenh` varchar(45) DEFAULT NULL,
+  `NgayHen` varchar(45) DEFAULT NULL,
+  `GioHen` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`MaHen`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
