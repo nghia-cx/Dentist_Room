@@ -13,7 +13,7 @@ Hệ thống được viết bằng ngôn ngữ Java
   
 Các bước chạy:  
   B1: Clone repo về máy tính cá nhân    
-  B2: Cài đặt một IDE Java (Netbeans) và một cơ sở dữ liệu (SQL,...)    
+  B2: Cài đặt một IDE Java (Netbeans,...) và một cơ sở dữ liệu (SQL,...)    
   B3: Tạo 1 project bên trong IDE với repo vừa tải xuống     
   B4: Tạo cơ sở dữ liệu với file csdl.txt    
   B5: Kết nối IDE với CSDL thông qua JDBC (với Neatbeans sử dụng lib/mysql-connector-java-8.0.27.jar)    
